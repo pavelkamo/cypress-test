@@ -1,7 +1,14 @@
 {
   "name": "cypress-taf",
   "version": "1.0.0",
+  "scripts": {
+    "cy:open": "npx cypress open",
+    "cy:run": "npx cypress run"
+  },
   "devDependencies": {
     "cypress": "*"
+  },
+  "dependencies": {
+    "eslint-plugin-cypress": "^2.15.1"
   }
 }
